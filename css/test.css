@@ -3,54 +3,8 @@ body{
 	margin: 0;
 	margin-top: 0;
 }
-h1{
-	font-size: 30px;
-	color: #FFFFFF;
-	font-family: Gotham, Helvetica, Arial;
-	font-kerning: 50;
-}
-h2{
-	font-size: 20px;
-	color: #d44242;
-	font-family: Gotham, Helvetica, Arial;
-	text-transform: uppercase;
-	letter-spacing: 3px;
-	margin: 30px 0 15px;
 
-}
-p{
-	font-size: 15px;
-	color: white;
-	font-family: georgia;
-}
-.big{
-	font-size: 60px;
-}
-
-.uppercase{
-	text-transform: uppercase;
-}
-
-.big.uppercase{
-	color: peachpuff;
-}
-
-h1 span{
-	letter-spacing: 3px;
-}
-li{
-	font-size: 15px;
-	color: white;
-	font-family: georgia;
-}
-h3{
-	font-size: 13px;
-	color: #FFFFFF;
-	font-family: Gotham, Helvetica, Arial;
-	text-transform: uppercase;
-	letter-spacing: 3px;
-
-}
+/* header styles */
 header{
 	background-color: #d44242;
 	text-align: center;
@@ -68,11 +22,68 @@ header img{
 	width: 300px;
 	border: 10px solid #000000;
 }
+
+/* header fonts */
+
+
+h1{
+	font-size: 30px;
+	color: #FFFFFF;
+	font-family: Gotham, Helvetica, Arial;
+	font-kerning: 50;
+}
+h2{
+	font-size: 20px;
+	color: #d44242;
+	font-family: Gotham, Helvetica, Arial;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	margin: 30px 0 15px;
+
+}
+h1 span{
+	letter-spacing: 3px;
+}
+h3{
+	font-size: 13px;
+	color: #FFFFFF;
+	font-family: Gotham, Helvetica, Arial;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+
+}
+
+/* general fonts */
+p{
+	font-size: 15px;
+	color: white;
+	font-family: georgia;
+}
+.big{
+	font-size: 60px;
+}
+
+.uppercase{
+	text-transform: uppercase;
+}
+
+.big.uppercase{
+	color: peachpuff;
+}
+li{
+	font-size: 15px;
+	color: white;
+	font-family: georgia;
+}
+
+/* main body */
 main{
 	max-width: 800px;
 	margin: 0 auto;
 	padding: 20px;
 }
+
+/* footer */
 footer{
 	background-color: #d44242;
 	text-align: center;
